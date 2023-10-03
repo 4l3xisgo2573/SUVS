@@ -1,0 +1,114 @@
+*{
+    color:white;
+    margin:0;
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+}
+body{
+    background:linear-gradient(#03254c,gray);
+
+}
+.header{
+    background-image:url("https://www.carid.com/images/inspiration/chevy/tahoe/7/1.jpg");
+    background-blend-mode:multiply;
+    background-size:content;
+    background-position:40% 50%;
+    height:800px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    text-align:center;
+    text-shadow:20px 10px 8px black;
+}
+
+.header h1{
+    font-size:100px;
+}
+.header p{
+    font-size:50px;
+}
+h1, p, img{ 
+    background-color:transparent;
+}
+.navbar a{
+    background-color:transparent;
+    text-decoration:none;
+}
+#chevorlet:hover{
+    color:#ffea17;
+    -webkit-text-stroke:2px white;
+}
+#gmc:hover{
+    color:red;
+    -webkit-text-stroke:2px white;
+}
+
+#cadillac:hover{
+    color:gray;
+    -webkit-text-stroke:2px white;
+}
+.logo{
+    width:700px;
+}
+.suvimg{
+    width:25%;
+    border-radius:50px;
+    box-shadow:5px 10px 10px black;
+}
+hr{
+    height:6px;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:black;
+    border-color:transparent;
+}
+h2{
+    font-size:75px;
+    color:black;
+    text-shadow:2px 2px 2px white;
+    text-align:center;
+    margin-bottom:-10px;
+    background-image:url("https://img.freepik.com/premium-photo/black-asphalt-floor-road-texture-background_44706-1079.jpg");
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    overflow:hidden;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    background-image: repeating-linear-gradient(90deg,gray 0%, black 18%,gray 32%);
+    height:80px;
+}
+.navigation{
+    position:sticky;
+    top:0px;
+}
+.navbar li{
+    display:flex;
+    background-color:transparent;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:400%;
+}
+
+.chevySection, .gmcSection, .cadillacSection{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.chevySection>*, .gmcSection>*, .cadillacSection>*{
+    flex:50%;
+}
+.chevySection h1,.gmcSection h1,.cadillacSection h1{
+    font-size:60px;
+}
+.chevySection p,.gmcSection p, .cadillacSection p{
+    font-size:40px;
+}
+.design,.heading{
+    text-align:center;
+}
